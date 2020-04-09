@@ -10,7 +10,7 @@ def main():
     root.iconbitmap("./resource/favicon.ico")
 
     # image
-    my_img = ImageTk.PhotoImage(Image.open("./resource/mountain.png"))
+    my_img = ImageTk.PhotoImage(Image.open("./resource/img/mountain_0.jpg"))
     my_label = tk.Label(image=my_img)
     my_label.pack()
 
